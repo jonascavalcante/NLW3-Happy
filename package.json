@@ -1,0 +1,25 @@
+{
+  "name": "NLW3-Happy",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido durante a Next Level Week 3 da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonascavalcante/NLW3-Happy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonascavalcante/NLW3-Happy/issues"
+  },
+  "homepage": "https://github.com/jonascavalcante/NLW3-Happy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
