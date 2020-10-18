@@ -17,6 +17,9 @@
     justify-content: center;
 
     transition: background-color 0.2s;
+
+    text-decoration: none;
+    outline: none;
 }
 
 .primary-button:hover{

@@ -78,5 +78,15 @@ function toggleSelect(event) {
     button.classList.add('active');
 
     const input = document.querySelector('[name="open_on_weekends"]');
+
     input.value = button.dataset.value;
+}
+
+function validade(event) {
+    /* VALIDAR SE LAT E LNG ESTÃO PREENCHIDOS */
+    const needsLatAndLng = true; 
+    if (needsLatAndLng) {
+        event.preventDefault();
+        alert('Selecione um ponto no mapa');       
+    }
 }
